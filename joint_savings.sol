@@ -18,7 +18,7 @@ contract JointSavings {
         require(recipient==accountOne || recipient==accountTwo,"You don't own this account!");
 
 
-        require(amount>contractBalance,"Insufficient funds!");
+        require(amount<contractBalance,"Insufficient funds!");
 
         if (lastToWithdraw!=recipient) {
             lastToWithdraw=recipient;
@@ -50,6 +50,7 @@ contract JointSavings {
     Default fallback function to collect remitances outside smart contract
     */
       function() external payable {
+          contractBalance = address(this).balance;
   }
 
 
