@@ -6,4 +6,4 @@ Deposit Success
 
 Successful Withdrawal Transaction
 
-<img width="1304" alt="Screenshot 2023-03-30 at 12 02 33 PM" src="https://user-images.githubusercontent.com/54637095/234767738-6c9bda8f-19db-4422-9441-16c11a4e679a.png">
+<img width="697" alt="Screenshot 2023-04-27 at 12 28 54 AM" src="https://user-images.githubusercontent.com/54637095/234767814-fca04019-2244-41f2-94ce-fd910003fec0.png">
